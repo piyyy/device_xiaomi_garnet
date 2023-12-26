@@ -15,13 +15,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/xiaomi/garnet-miuicamera/products/miuicamera.mk)
 $(call inherit-product, vendor/xiaomi/garnet-miuicamera/products/board.mk)
 
-# Evolution-XYZ 
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_MINI_GAPPS := true
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
