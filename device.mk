@@ -555,5 +555,4 @@ PRODUCT_BOOT_JARS += \
 # Vendor
 $(call inherit-product, vendor/xiaomi/garnet/garnet-vendor.mk)
 
-# Miui Camera
--include vendor/xiaomi/garnet-miuicamera/products/miuicamera.mk
+-include vendor/extra/product.mk
